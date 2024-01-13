@@ -13,9 +13,9 @@ def store_db():
     store = DiskStorage()
     # on the first run, this will print empty string, but on the next run
     # it should print the value from the disk
-    print(store.get("name"))
+    # print(store.get("name"))
     store.set("name", "haha")
-    print(store.get("name"))
+    # print(store.get("name"))
 
 
 if __name__ == '__main__':
